@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import Header from './Components/Nav/Header';
+import { BrowserRouter, Switch, Route,} from "react-router-dom";
+import Home from './Components/Home'
+import Compinput from './Components/Compinput';
+import Login from './Components/auth/Login';
+import Cursos from './Components/Crud-Curso/Cursos';
+import LoginState from "./Components/auth/context/LoginState"
+import RutaPrivada from "./Routes/RutaPrivada"
+import Alumnos  from './Components/Crud-Alumnos/Alumnos'
+const App =  () => {
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LoginState>
+      <BrowserRouter >
+        <Header/>
+        <Switch>
+        <Route exact path="/" component={Login} />
+        <RutaPrivada path="/Home"  component={Home} />
+        <RutaPrivada path="/Compinput" component={Compinput}/>
+        <RutaPrivada path="/Cursos" component={Cursos}/>
+        <RutaPrivada path="/Alumnos" component={Alumnos}/>
+        </Switch>
+      </BrowserRouter>
+    </LoginState>
+
   );
 }
 
-export default App;
+export default App

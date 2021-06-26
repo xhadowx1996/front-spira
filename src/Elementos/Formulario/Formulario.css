@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #e5e5e5;
+    font-family:'Odibee Sans',cursive;  
+}
+
+main{
+    max-width: 800px;
+    width:90%;
+    margin: auto;
+    padding:40px;
+
+}
+

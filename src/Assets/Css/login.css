@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #e9ecef;
+  }
+  .container-loginv2{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    margin: 50px auto;
+    box-shadow: 5px 10px 15px #814238;
+  
+  }
+  .sesion1-login{
+    width: 50%;
+    height: 100%;
+    background-color: #fff4f3;
+    float: right;
+    padding: 20px;
+  }
+  .sesion2-login{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top:100px;
+  }
+  
+  .sesion2-login img{
+    width: 100%;
+  
+  }
+  .sesion1-login h2{
+    color: #34495e
+  }
+  .sesion1-login input{
+    border-color:  transparent transparent #34495e transparent;
+    background-color: transparent;
+    color: black;
+    transition: 1s border-radius ;
+  }
+  .sesion1-login input:focus{
+      /*outline:none !important;
+       outline-width: 0 !important; */
+      border-color:  transparent transparent #34495e transparent;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+       background-color: transparent;
+  
+  }
+  .sesion1-login input:hover{
+      /*outline:none !important;
+       outline-width: 0 !important; */
+       border: solid #dc3545 2px;
+       border-color:  transparent transparent #dc3545  transparent;
+       border-radius: 150px;
+       box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+  }
+  .btn-login-red{
+    background-color: #34495e;
+    color: white;
+    width: 50%;
+    border: solid #34495e;
+    padding: 10px;
+    transition: 1s background-color;
+  }
+  .btn-login-red:hover{
+    background-color: white;
+    color: #34495e;
+    width: 50%;
+    border: solid #34495e;
+    padding: 10px;
+  }
+  .sesion1-login input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1; /* Firefox */
+  }
+  .sesion1-login label {
+    color: #565454;
+    font-size: 18px;
+  }
+  .App{
+    text-align: center;
+  }
+  body{
+  background-color:#e9ecef !important;
+  }
+  #contenedor{
+    z-index: -50;
+  }
+  .card-bodyl{
+    box-shadow: 1px 1px 5px slategray;
+    background-color:rgb(238,228,226,1) !important;
+    /* border-radius: 20px; */
+    z-index:1;
+    margin: auto;
+    width: 400px;
+  }
+  .card-header{
+  z-index: 500;
+  background-color: wheat;
+  margin-top: 2rem !important;
+  
+  }
+  #logo-login{
+  margin-left: 50px;
+  }
+  #contenedor-logo{
+    background-color: white;
+    margin: auto;
+    width: 400px;
+    box-shadow: 0px 0px 15px grey;
+  }
+  .card-body p {
+    color: gray;
+    font-size:20px;
+  }
+  .campos{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color:rgb(255,255,255,0.8);
+    border-radius:20px;
+    /* border: solid gray 10px; */
+  
+  }
+  .card-body .campos input{
+  border-color:  transparent transparent gray transparent;
+  background-color: transparent;
+  }
+  
+  .icon{
+    margin-left: -30px;
+    margin-top: 30px;
+    color:gray;
+    z-index: 1;
+  }
+  .icon2{
+    margin-left: -30px;
+    margin-top: 60px;
+    z-index: 1;
+    color:gray;
+  }
+  .card-body .campos input:focus{
+      /*outline:none !important;
+       outline-width: 0 !important; */
+      border-color:  transparent transparent #dc3545 transparent;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+  }
+  
+  .card-body .campos input:hover{
+      /*outline:none !important;
+       outline-width: 0 !important; */
+       border: solid #dc3545 2px;
+      border-color:  transparent transparent #dc3545 transparent;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+  }
+  
+  .contendor-login{
+    width: 400px !important;
+  }
+  
+  .btn-login{
+    margin: auto;
+  }
+  .menu{
+    background-color: white;
+  }
+  

@@ -1,0 +1,3 @@
+export const LOGIN_EXITOSO  = 'LOGIN_EXITOSO';
+export const LOGIN_FALLIDO  = 'LOGIN_FALLIDO';
+export const CERRAR_SESION  = 'CERRAR_SESION'
